@@ -10,6 +10,6 @@ COPY *.go ./
 
 RUN go build -o /docker-web
 
-EXPOSE 8080
+EXPOSE 8090
 
 CMD [ "/docker-web" ]
